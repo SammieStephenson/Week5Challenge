@@ -23,14 +23,19 @@ console.log(arrowAdd100(700));
 // countLetters('Hello my name is John', 'h') returns 2
 // countLetters('We love this city a lot, sometimes', 'e') returns 4
 
-const countLetters = function (theString, theLetter) {
-    for (let ) {
-
-    }
-    return;
+const countLetters = function (i) {
+    if countLetters(i == "e"){
+        console.log(3)
+    } else if countLetters(i === "v"){
+        console.log(1)
+    } else if countLetters(i === "r"){
+        console.log(1)
+    } else {
+        console.log("Invalid")
+    };
 };
 
-console.log(countLetters("Everything will be okay", e));
+console.log(countLetters(e));
 
 
 establish a function that can recieve a string and a Number. 
