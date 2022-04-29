@@ -15,7 +15,7 @@ console.log(arrowMyFunction(2, 7));
 
 arrowAdd100 = money => money + 100;
 
-arrowAdd100(700);
+console.log(arrowAdd100(700));
 
 //3 Create an arrow function that takes TWO arguments, a string and a single letter.  The function will count the number of times the specified letter occurs in the string. **Not case sensitive
 // Examples:
@@ -24,14 +24,15 @@ arrowAdd100(700);
 // countLetters('We love this city a lot, sometimes', 'e') returns 4
 
 const countLetters = function (theString, theLetter) {
-    let result = 1;
-    for (let count = 1; theString < theLetter; count++) {
-        result *= base;
+    for (let ) {
+
     }
-    return result;
+    return;
 };
 
 console.log(countLetters("Everything will be okay", e));
-// → 1024
 
-const countLetters =
+
+establish a function that can recieve a string and a Number. 
+add a count function OR filter out letters that are not the variable.
+return the amount of letters in number data type
